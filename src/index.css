@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--azul-primario: #1877f2;
+}
+
+button {
+	padding: 0;
+	border: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgba(242, 244, 246);
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+a {
+	cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.seccion-solicitudes {
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	.contenedor {
+		/*Tus solicitudes de amistad*/
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.titulo {
+			display: flex;
+			gap: 5px;
+			align-items: center;
+		}
+	}
+	.solicitud {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		overflow: hidden;
+
+		.imagen {
+			width: 220px;
+			height: 300px;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.info {
+			font-weight: 600;
+			.titulo {
+				padding: 4px;
+			}
+		}
+		.botones {
+			width: 220px;
+			display: flex;
+			justify-content: space-between;
+			.boton {
+				background: rgba(226, 229, 233);
+				color: rgba(23, 22, 24);
+				padding: 10px 8px;
+				border-radius: 6px;
+				font-size: 15px;
+				font-weight: 600;
+				cursor: pointer;
+				&.azul {
+					background: var(--azul-primario);
+					color: white;
+				}
+			}
+		}
+	}
+	.modal-overlay {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(0, 0, 0, 0.559);
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		.modal-body {
+			display: flex;
+			justify-content: center;
+
+			width: 80vw;
+			height: 90vh;
+			img {
+				height: 100%;
+			}
+		}
+	}
+}
