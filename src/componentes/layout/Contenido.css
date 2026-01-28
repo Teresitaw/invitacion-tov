@@ -75,6 +75,8 @@
 			width: 80vw;
 			height: 90vh;
 			img {
+				object-fit: contain;
+				max-width: 95vw;
 				height: 100%;
 			}
 		}
