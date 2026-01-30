@@ -39,7 +39,7 @@ const Contenido = () => {
 				{activo && (
 					<div className="modal-overlay" onClick={() => setActivar(false)}>
 						<div className="modal-body">
-							<img src="./assets/overlay.jpeg" alt="" />
+							<img src="./assets/overlay2.png" alt="" />
 						</div>
 					</div>
 				)}
